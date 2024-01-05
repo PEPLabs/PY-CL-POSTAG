@@ -15,7 +15,7 @@ def samplePOSTagging():
 
     print(pos_tag(tokens))
 
-# Write a sentence that contains the following: a singular noun (NN tag, ie 'apple'), an adjective(JJ tag, ie 'many', 'big'), and a verb in base form (VB tag, ie 'give', 'take').
+# Write a sentence that contains the following: a singular noun (NN tag, ie 'apple'), an adjective(JJ tag, ie 'many', 'big'), and a verb in base form (VB tag, ie 'take').
 # And then complete the following function that will:
 #   1. tokenize the sentence 
 #   2. Tag each token with their respective POS tags
@@ -23,4 +23,5 @@ def samplePOSTagging():
 # The test will verify that the NN, JJ, and VB tag exists somewhere in the returned list of pos tagged word tokens
 def posTaggingExercise():
     text = "your_ingenuous_sentence_here"
+
     return text
